@@ -29,6 +29,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -121,6 +125,47 @@ p {
   display: inline-block;
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+  margin: 50px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background-color: var(--third-color);
+  padding: 10px 18px;
+  font-size: 25px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--third-color);
+  background-color: var(--primary-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -146,5 +191,9 @@ p {
 
   .about-section img {
     padding-top: 30px;
+  }
+
+  footer .email-link {
+    font-size: 20px;
   }
 }
