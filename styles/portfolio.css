@@ -1,6 +1,7 @@
 :root {
   --primary-color: #142d4c;
-  --secondary-color: #9fd3c7;
+  --secondary-color: #abdcd1;
+  --third-color: #a9bcd3;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -104,6 +105,20 @@ p {
 
 .project-desciption {
   padding: 120px 60px;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+.active {
+  color: var(--primary-color) !important;
+}
+
+.nav-item {
+  padding: 0 10px;
+  line-height: 14px;
+  display: inline-block;
 }
 
 @media (max-width: 900px) {
