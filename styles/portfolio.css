@@ -42,7 +42,7 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 120px 20px;
 }
 
 .hero p {
@@ -59,8 +59,14 @@ p {
   font-size: 24px;
 }
 
+.technologies-box {
+  text-align: center;
+  padding: 30px 120px;
+  margin: 0;
+}
+
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -92,6 +98,16 @@ p {
   font-family: var(--default-font-family);
   border-radius: 4px;
   color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding :hover {
+  background-color: white;
+  font-family: var(--default-font-family);
+  border-radius: 4px;
+  color: var(--primary-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
