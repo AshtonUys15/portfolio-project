@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+    <meta name="description" content="About Ashton. Ashton is a front-end developer based in South Africa">
+    <title>About Ashton</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -30,31 +31,29 @@
     ></script>
   </head>
   <body>
-    <<nav class="navbar navbar-expand-lg bg-white">
-  <div class="container">
-    <nav class="d-flex justify-content-between">
-    <a class="navbar-brand" href="/" ><img src="images/AU Logo.png" alt="Ashton Uys logo" class="logo""></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/" title="Homepage">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about.html" title="About page">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/work.html" title="Ashtons work">Work</a>
-        </li><li class="nav-item"> 
-          <a class="nav-link" href="/contact.html" title="Contact page">Contact</a>
-        </li>
-      </ul>
+    
+<div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="images/AU Logo.png" class="logo d-none d-md-block" alt="Ashton logo">
+          <img src="images/AU logo small.png" class="logo d-block d-md-none" alt="Ashton logo" width="50px">
+        </a>
+        <ul>
+          <li >
+            <a href="/index.html" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Ashton"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Ashton work"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Ashton"> Contact</a>
+          </li>
+        </ul>
       </nav>
     </div>
-  </div>
-</nav>
 
     <div class="content-container container">
       <div class="row">
@@ -63,16 +62,15 @@
             <h1 class="mb-5">Hi I am Ashton Uys</h1>
             <h2 class="mb-5">Front-end Developer, based in South Africa.</h2>
             <p class="mb-4">
-              For anyone who wants to start learning code, this workshop is very
-              interesting. You will be challenged with different exercises, and
-              everything is well explained, homework and deadlines are good for
-              keep focus
+              My name is Ashton Uys. I am based in Napier, Western Cape, South Africa. I used to be a e-Learning developer, where i developed
+              online courses for universities, and companies. I have always had a passion for coding and recently came across SheCodes where i have now
+              completed 2 courses and still learning to become a fully edcuated web developer. 
             </p>
-            <a href="/contact.html" class="btn btn-branding">View all projects</a>
+            <a href="/work.html" class="btn btn-branding">View all projects</a>
           </div>
         </div>
-        <div class="col-lg-6">
-          <img src="images/Ashton Uys.png" class="img-fluid" alt="Ashton" />
+        <div class="col-lg-6 img-ashton">
+          <img src="images/Ashton Uys.png" class="img-fluid" alt="Ashton"/>
         </div>
       </div>
     </div>
@@ -80,18 +78,33 @@
   </br>
   </br>
 
-    <h2 class="certificates-heading text-center">My certificates</h2>
+    <h4 class="certificates-heading text-center">My certificates</h4>
 
-     <div class="row certificates">
-          <div class="col-6">
-            <h3 class="text-center mt-5">SheCodes Basic</h3>
-            <img src="images/SheCodesBasic-Certificate-Ashton.png" alt="SheCodes basic certificate" width="500px" class="d-flex justify-content-center">
+     <div class="container mb-5">
+      <div class="row">
+          <div class="col-md-6 text-center">
+            <h3 class="mt-5">SheCodes Basic</h3>
+            <img src="images/SheCodesBasic-Certificate-Ashton.png" alt="SheCodes basic certificate" width="500px" class="img-fluid">
           </div>
-          <div class="col-6">
-            <h3 class="text-center mt-5">SheCodes Plus</h3>
-            <img src="images/SheCodesPlus-Certificate-Ashton.png" alt="SheCodes plus certificate" width="500px" class="d-flex justify-content-center">
+          <div class="col-md-6 text-center">
+            <h3 class="mt-5">SheCodes Plus</h3>
+            <img src="images/SheCodesPlus-Certificate-Ashton.png" alt="SheCodes plus certificate" width="500px" class="img-fluid">
+          </div>
+          <div class="col-md-6 text-center">
+            <h3 class="mt-5">SheCodes Responsive</h3>
+            <img src="images/coming-soon.png" alt="certificate coming soon" width="500px" class="img-fluid">
+          </div>
+          <div class="col-md-6 text-center">
+            <h3 class="mt-5">SheCodes React</h3>
+            <img src="images/coming-soon.png" alt="certificate coming soon" width="500px" class="img-fluid">
           </div>
          </div>
+         </div>
+
+         </br>
+  </br>
+  </br>
+
 
     <footer>
         <div class="contact-box flex justify-content-between mb-5 d-none d-md-flex">
